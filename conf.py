@@ -21,10 +21,10 @@ on_rtd = os.environ.get('READTHEDOCS') == 'True'
 
 ###################   TODO EDIT AS NEEDED !!  ####################
 
-course = "TODO CHANGE COURSE" 
-degree = "TODO CHANGE DEGREE"
-author = 'TODO CHANGE NAME' 
-copyright = '# TODO FIRST YEAR - %s, %s' % (datetime.datetime.now().year, author)
+course = "SCientific Programming" 
+degree = "Quantitative and Computational Biology"
+author = 'Luca Bianco' 
+copyright = '# 2019 - %s, %s' % (datetime.datetime.now().year, author)
 
 #####    'filename' IS *VERY* IMPORTANT !!!!
 #####     IT IS PREPENDED IN MANY GENERATED FILES
@@ -79,7 +79,7 @@ SYSTEMS = {
 }
 MANUALS = {
     "student": {
-        "name" : "Jupman",  # TODO put manual name, like "Scientific Programming"
+        "name" : "QCB Scientific Programming 2019",  # TODO put manual name, like "Scientific Programming"
         "audience" : "studenti",
         "args" : "",
         "output" : "",

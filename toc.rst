@@ -6,9 +6,8 @@
     :glob:
 
 
-    Home <index.ipynb>
-    usage.md
-    jupman-tests.ipynb
+    Home <home.ipynb>
+    
 
 |space|
 ==========

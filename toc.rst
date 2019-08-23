@@ -6,7 +6,7 @@
     :glob:
 
 
-    Home <home.ipynb>
+    Home <index.ipynb>
     
 
 |space|

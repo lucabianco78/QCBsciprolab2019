@@ -7,7 +7,6 @@
 
 
     Home <index.ipynb>
-.. Commented out line!
     Practical 1 <introduction.ipynb>
 
 |space|

@@ -2,9 +2,9 @@
 <!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
 <BlastOutput>
   <BlastOutput_program>blastn</BlastOutput_program>
-  <BlastOutput_version>BLASTN 2.7.1+</BlastOutput_version>
+  <BlastOutput_version>BLASTN 2.10.0+</BlastOutput_version>
   <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
-  <BlastOutput_db>nt</BlastOutput_db>
+  <BlastOutput_db>nt_v5</BlastOutput_db>
   <BlastOutput_query-ID>X52616.1</BlastOutput_query-ID>
   <BlastOutput_query-def>Epichloe typhina tubB gene for beta-tubulin</BlastOutput_query-def>
   <BlastOutput_query-len>3229</BlastOutput_query-len>
@@ -34,8 +34,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>5809.94</Hsp_bit-score>
-      <Hsp_score>6442</Hsp_score>
+      <Hsp_bit-score>5810.84</Hsp_bit-score>
+      <Hsp_score>6443</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>3229</Hsp_query-to>
@@ -55,6 +55,148 @@
 </Hit>
 <Hit>
   <Hit_num>2</Hit_num>
+  <Hit_id>gi|1519333058|gb|CP031386.1|</Hit_id>
+  <Hit_def>Epichloe festucae Fl1 chromosome 2, complete sequence</Hit_def>
+  <Hit_accession>CP031386</Hit_accession>
+  <Hit_len>7605136</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>4452.9</Hsp_bit-score>
+      <Hsp_score>4937</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>3228</Hsp_query-to>
+      <Hsp_hit-from>5538077</Hsp_hit-from>
+      <Hsp_hit-to>5541369</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>2998</Hsp_identity>
+      <Hsp_positive>2998</Hsp_positive>
+      <Hsp_gaps>145</Hsp_gaps>
+      <Hsp_align-len>3333</Hsp_align-len>
+      <Hsp_qseq>CTGCAGCCGCCTGCCCAGCCGGGGGCCCTGCC-AAGTCTGG---CGGTGAACCGACCGGCTGTCCAATTCATCTCCAACGAAAAATCAACAACGTCCGCCCCG-GCTTAGTCCTCTCTTGTTCCCATACATTACACCTT-CTGGCGGACCGTGAAGCTTCGCCTGGCTCTCGTGATTCTTTTCATCATTATTCTTTTCCCAGCTTCAGAAGACTTGCCGTCGTCAACAAGTAACCGAGAAAATGCGTGAGATTGTGAGTTCAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCCGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGACGTGCACGCCCAACGGACAAGTCGTGATGAGAGGCGGACCGAGACAACATTGATGAATGCGGTATTCGAAAACCGTAGCTGACCTTTTT-------TCTTTGCC--TCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATCCGCCGACCTCGAACGACAGGCACAAATAACATGAAAAACTCACATTGATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGCAAGTCTTCATAATCTACAAAAGTCTCCATTGAGCTACATACT----GCCCTGGAGATGGGGCGGGAGAAGATGGAAAGGAAAAGTGTTATCATGCTAATCTATGTGACAGGCTTCTGGCAACAAGTACGTTCCTCGCGCTGTTCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGCGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGATGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCTCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCTACTTTTTCCGTCGTTCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCTGTCCATCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCCAACCCCTCGTACGGCGATTTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGCAAGTTGGCCGTCAACATGGTTCCTTTCCCCCGTCTGCACTTCTTCATGGTCGGCTTCGCCCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTCAGCGTCCCTGAGCTTACCCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCTGCCATTTTGTGAGTGAAATTGACAACCTCAACTTGAGAAGTCGTGTCGCAGTAACTGACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACAGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGGTGCCTGTTGGGTTATTTGAACCCCGCCATTGTATCTCGTTCAATTAAGCGTGGCGTGAGCAGG-TAAAATTTACTTCGGTATTGTAATAACTACATTCCACCCCCCCTAAGGAGGGGTTAAAAAAGATGGCTTTTATCACTG---AGT----GACTGTGCTACATTGGGAAGATTGTACGTCATGAGTCAAAA-ACAAAGTAAGTTCTTGTTCTTATTTTTGTTTTGAATTACAAAATTTGTGACGCCAAGGATACCTGTTGTATGTCCGCTTCTTGTTTTTTTTTTTTTGAATTTCCAGGAAATGACTCAAATGAGTGACGTGAT-------------------TAAGGGG-------ATACGTACAGCACGTGATAAGATGACTAAGCGTACGAAAAGT--ATGGGTTGTCAATCCGCGCTGACCTTCAATCACAGTCAGTACAACGAAACACGTCCCATCCATTGCGACAGCAAGGACAGGACTCAATGGCCTCAAAAACCATGCCTCGCCGGTGCAAGGTGCTGGGACATGCCTTGGGCTCGTCTTCGGGCTCAG-CCTGCCAGGGTTGCTCGTGCCAGCGTGGCCAACGTTTGCGCAAAGACAATTCTCGACGACGACAAAGCGACCTTCGAAACTTGGTCGAACGCCGATTACCATCCCCCCCGGCGTCGAATTGTCGATGGGCGACTTGAAGAAATTCAAGTCCAAGACGTCGTACAAACCTACCGTGAATAGAAGGATCACGGTCAAAGGACCGTTGGGTGAGTTTTCATTGGCTCGAGGTCGCAGTGGTGGTGGTTCT--GCGCTGCCACCGGAATGCAGGTCAACTTGTACGGCAGGACGGACGTAGCTGACCAAAGATG-----TTTTTTTTTTTTTTTTTTC------ACAGGGAAACTGGGACTTGATGTTCCTGAATTCGTCAGCCTGC-GCAGGACTTGGAGAACAAGACGGTGTCGTTGGGC-TCGAGGATGCGAATGTCAAGCAGCAGAAGGAGATGTGGGGTATGCAT----------TGGACACAAC---TTTCCC----------ATGGTTCAACCTTTAACCCTAGAAGTACAGGTTTGGGGGA---AAGCG-----GTA--TTGGGTTGGAGTTCATACTGACTTTGGGTCCGGGCAGGAACATCGTGGTCGTACCTGACCAACCACGTGAGGGGGGTGTCGGAAGGCCACACGGCCATACTCCGCCTCGTGGGCGTGGGATACCGAGCGAGCGTCGAMGACCGGGGMMMMAAGGAGCAGTACCCCGG</Hsp_qseq>
+      <Hsp_hseq>CTGCCGCCGCCTCCCCAGCCAGGG-CCCTGCCCAAGTCTGGTGGCGGTGAACCGACCGGCTGTCCAATTCGTCTCCAACGAAAAATCAACAACGTCCGCCCCCAGCTTAATTATCCCTTGTTCCCATACATTACACCTTTCTGGCGGACCGTGAAGCTTCACCTGTCTCTCGTGATTCCTTCCATCAGTTCTCTTTTCCCAGCTTCAGAAGATTTCCCTTCGTCAACAAGTAACCGACAAAATGCGTGAGATTGTAAGTTCAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCGGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGAAGTGCACGCCCAACGAACA-GTCGTGATGAGAGGCGGACCGAGACAAAATTAATGAATGCGGTATTCGAGAACTGTAGCTGACCTGTTTCTTTCCCTCTTTTCCCCTCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATTCGCCGACCTCGAACGACAGGCACAAACAGCATGAAAAACTCACATTCATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGTAAGTCTTCATAATCTA---AAGTCTCCATTGAGCTACATACATACCGCCCCGGAGATGGGACGGAAAGAGAACGAAAGAAAAAGTGTTATCATGCTCATCCATGTGACAGGCTTCTGGCAACAAGTATGTTCCTCGCGCTGTCCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGTGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGACGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCGCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAAGAGTTCCCCGACCGGATGATGGCCACTTTTTCCGTCGTCCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCCGTCCACCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCTAACCCGTCATACGGTGATCTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGGAAGCTGGCCGTCAACATGGTTCCTTTCCCTCGTCTGCACTTCTTCATGGTCGGCTTCGCTCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTTAGCGTTCCTGAGCTTACTCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCCGCCATTTTGTGAGTGAAATTGACAACCCTAACTTGAG-AGTCGTGTCGCAGTAACTAACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACGGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGATGCCTGTTGGGTTATTCGAACTCCGCCATTGTATCTCGTTCAATTAAGCGTGGCGTGAGCAGGTTAAATTTTACTTCGGTACTGTAACAAATACATTCCACCCCC---GAAGAGGGGTT-AGAAAGATGCCTTTTATCACTGATCAGTGAACGATTGTGCTACATTGGGAAGATCGTACGTCATAAGTCAAAACACAAAGCAAGCTCTTGTTCTCATTCTTAATTCAAATTACAAAATCTATGACCCCAAATATACTTGTTGTATGTCCGCTTATTGTTTTTCTGTAT-----------GGAAATGACTCAAATGAGTGACGTGATTGTGCCTGTCGGTCGAGTGTAAGGGGGGGGGTAATACGTA---CACGTGATAACATGACTAAGCGCCCGAAAAGTTCATGGGTTGTCAATCAGGGCTGACCTTCAATCA----CGGTACAACAAAACACGTCCCATCCATTGCGACAGCAAGGACAGGACTCAATGGCTTCGAAAACCATGCCCAGCCGGGGGAGGGTGCTGGGACATGCCTTGCGCTTGTCTTCGGGATTAGCCCTGCCAGGGTTGCTCGTGCCAGCGTGGCAAACGTTTGCGCAAAGACAATTCTCGACGACGACAAAGCGACCTTCGAAACTTGGTCGAACGCCGATTACCGTCCCCCCCGGCGTCGAATTGTCGATGGGCGACTTGAAGACTACCAAGTCCAAGACGTCATACAAACCTACCGTGAAGAGAAGGATCACAGTCAAAGGACCGTTGGGTGAG-TTTCATTGGCTCGAGGTCGCAGTAGT--TGGTTCTGCGCGCTGCGAGCGGAATGTAGGTCAACTTGTACAGCAGGACGTA-----CTGACCAAAGATGCACTCTTTTTTTTTTCTTTTTTTCTTTTTTACAGGGCAACTAGAACTTGATGTTCCCGAATTCGTCAGCCTGCAACAAGACTTGGAGAACAAGACGGTGTCGTTACGCGTCGAGGATGCAAATGTCAAGCAGCAAAATGAGATGTGGGGTATGCATATAATACTTCTGCGCACTTCCCATTTCCCCCCCTCTCCTTTGTTTCAACC--CAACCCTACGAG-ACAAGATGGGGAGAAGCAAGCGAACGAGGACCCTGGTATGG-TACCATACTGACTTGGGCCTTGGGCAGGAACCTCGTGGTCCTACCTCACCAACCACGTAATGGGGGTATCGGAAGGCCACACGGCCATCCTCCGCCTCGTGGGCGTAGGATACCGAGCGAGCGTCGAGCGCCGGGGCGCCAAGGAGCAGTACCCCGG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||| ||||||| ||| ||||||| ||||||||   |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||  ||||| |  || ||||||||||||||||||||||| |||||||||||||||||||| |||| |||||||||||| || ||||| |  ||||||||||||||||||||| || || |||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||| ||||||||||||||||||||||||||| ||| ||||||||||||||||| ||| ||||||||||| |||       ||||| ||  |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| | ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||   ||||||||||||||||||||||     |||| ||||||||| ||| |  |||  ||||| ||||||||||||||||| ||| |||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || ||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||  |||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||| |||| |||||||||||| ||||| || ||||||||||||||    | |||||||| | ||||||| ||||||||||||   |||    || ||||||||||||||||||| ||||||||| |||||||| |||||| ||| ||||||||| ||| ||  ||  ||||||||||| | |||| ||||  |||| |||||||||||||||| |||||||| | | |           |||||||||||||||||||||||||||                   |||||||       |||||||   |||||||||| |||||||||||  ||||||||  |||||||||||||| | |||||||||||||||    | ||||||| ||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||  ||||| | | ||||||||||||||||||| ||| ||||||||| | || ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||    ||||||||||||||| ||||||||||||||||| ||||||||||| ||||||||||||||||||||| ||||||||||||||||||||||| ||  |||||||  ||||||| | ||||||| |||||||||||||| |||||||| |     |||||||||||||     |||||||||| ||||||||      |||||| |||| | |||||||||||| ||||||||||||||||  || ||||||||||||||||||||||||||  || |||||||||| |||||||||||||| || ||||||||||||||||||          ||  |||  |   ||||||           || |||||||   |||||||  || ||| | | ||| ||   |||||     | |   |||  |||    ||||||||||| ||    |||||||||| |||||||| ||||| ||||||||||| | |||||| |||||||||||||||||||| ||||||||||||||||| ||||||||||||||||||||   ||||||    |||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>292.53</Hsp_bit-score>
+      <Hsp_score>323</Hsp_score>
+      <Hsp_evalue>1.31974e-73</Hsp_evalue>
+      <Hsp_query-from>1645</Hsp_query-from>
+      <Hsp_query-to>1958</Hsp_query-to>
+      <Hsp_hit-from>6757491</Hsp_hit-from>
+      <Hsp_hit-to>6757804</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>253</Hsp_identity>
+      <Hsp_positive>253</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>AAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACAGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGC</Hsp_qseq>
+      <Hsp_hseq>AAGGAAGTCGAGGACCAGATGCGCAAGACCCAGGACAAGAACTCGGCCTACTTCGTCGAATGGATCCCCAACAACGTGCAGACCTCCATGTGCACTGTACCTCCCAAGGGCCTCAAGATGTCGTCCACATTCATCGGAAACTCCACAGCCATCCAGGATATCTTTAAGCGTGTAGGGGACCAGTTTGCCGCCATGTTCCGACGCAAAGCGTACTTGCACTGGTACACGGGCGAAGGCATGGACGAAATGGAATTCACCGAGGCTGAGTCCAACATGAATGATTTGATCTCTGAATACCAGCAATACCAGGACGC</Hsp_hseq>
+      <Hsp_midline>||||| ||||||||||||||||| ||    ||| ||||||||||  ||||||||||||| ||||||||||||||| | |||||  |  | ||| |  | ||||||   |||||||||||||| || || || ||||| ||||||||  ||||||||||  |||| ||||| || || || |||||  | ||||||||||| ||||| || | |||||| |||||||| ||||| || |||||||| ||||| ||||| ||||||||||| |||||||| ||| |  | || ||||||||||| |||||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>3</Hsp_num>
+      <Hsp_bit-score>221.297</Hsp_bit-score>
+      <Hsp_score>244</Hsp_score>
+      <Hsp_evalue>1.9604e-52</Hsp_evalue>
+      <Hsp_query-from>767</Hsp_query-from>
+      <Hsp_query-to>1083</Hsp_query-to>
+      <Hsp_hit-from>6756507</Hsp_hit-from>
+      <Hsp_hit-to>6756823</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>239</Hsp_identity>
+      <Hsp_positive>239</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>ACAGGCTTCTGGCAACAAGTACGTTCCTCGCGCTGTTCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGCGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGATGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCTCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGG</Hsp_qseq>
+      <Hsp_hseq>ACAGGCCTCGAACAATAAATATGTCCCTCGCGCAGTGCTCGTCGATTTGGAACCCGGAACCATGGACGCCGTGCGAGCTGGCCCATTGGGCCGTCTCTTCCGCCCCGATAACTTTGTCTTTGGCCAGTCCTCCGCGGCCAACAATTGGGCCAAGGGCCACTATACAGAAGGTGCAGAGCTGGTAGAGGAGGTCATTGATGTCGTTCGCCGTGAAGCCGAAAGCTGCGAGATATTACAGGGCTTTCAGATCACGCACTCGCTCGGTGGAGGTACCGGATCTGGCATGGGAACTTTGCTGTTGTCCAAGATCCGGGAGG</Hsp_hseq>
+      <Hsp_midline>|||||| ||   ||| || || || |||||||| || ||||||||| | || || || |||||||| || || || || || || || || |  || ||||| || || ||||| ||||| || |||||   ||| | |||||| ||||||||||| ||||| || || ||||| |||||||| ||  ||||| | ||||| || || || || |||||| |||| ||     | ||||| || |||||||| ||||| || ||||| ||||||||  | || ||||| || ||| || | ||||||||||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>4</Hsp_num>
+      <Hsp_bit-score>210.477</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>3.54449e-49</Hsp_evalue>
+      <Hsp_query-from>1079</Hsp_query-from>
+      <Hsp_query-to>1384</Hsp_query-to>
+      <Hsp_hit-from>6756903</Hsp_hit-from>
+      <Hsp_hit-to>6757208</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>TGAGGAGTTCCCCGACCGGATGATGGCTACTTTTTCCGTCGTTCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCTGTCCATCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCCAACCCCTCGTACGGCGATTTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGCAAGTTGGCCGTCAACATGGT</Hsp_qseq>
+      <Hsp_hseq>TGAAGAATTCCCGGATCGCATGCTGGCCACATTCAGTGTCGTCCCGTCTGCCCAGACCTCTGATACTGTTGTGGAGCCTTACAACACCACCTTGTCTGTTCATCAGTTGGTGGAGAACTCGGACGCAACCTTTTGCATTGACAACCAGGCTTTGTACGATATCTGCCAACGTACCCTGAAGCTGGCAAACCCCTCCACTGGCGATCTCAATCATCTGATCTCGACCGTCATGTCTGGAGTGTCCACCTCCCTCCGTTTCCCCGGTCAGCTCAACTCGGATCTACGAAAGATTTGTGTCAACTTGGT</Hsp_hseq>
+      <Hsp_midline>||| || ||||| || || ||| |||| || ||    ||||| || ||| || ||  |||||| || ||||| ||||| |||||| ||||  | ||||| |||||| | || ||||||||||||| ||| || || || || ||  |||| |||||||||||||||   ||||| || |||||| | ||||||||    |||||| | ||  | ||| ||||  | ||||||||||| ||  |||||| ||| |||||||| |||||||| ||||| || || || ||| |    |||||| ||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>5</Hsp_num>
+      <Hsp_bit-score>145.556</Hsp_bit-score>
+      <Hsp_score>160</Hsp_score>
+      <Hsp_evalue>1.23824e-29</Hsp_evalue>
+      <Hsp_query-from>1382</Hsp_query-from>
+      <Hsp_query-to>1561</Hsp_query-to>
+      <Hsp_hit-from>6757292</Hsp_hit-from>
+      <Hsp_hit-to>6757471</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>GGTTCCTTTCCCCCGTCTGCACTTCTTCATGGTCGGCTTCGCCCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTCAGCGTCCCTGAGCTTACCCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCTGCCATTTT</Hsp_qseq>
+      <Hsp_hseq>GGTGCCTTTCCCACGTCTCCACTTCTTCATGGTTGGCTTTGCCCCCTTGACCAGCCGCGGTAGCCACTCCTTCCGATCCGTCACTGTCGCCGATCTCAGTCAGCAGATGCTCGACCCGCGCAACATGATGGCTCAGTCCGACTTCCGCAACGGTCGCTTCCTCACCTGCTCGGCCATGTT</Hsp_hseq>
+      <Hsp_midline>||| |||||||| ||||| |||||||||||||| ||||| |||||| |||||||||| ||   |||||| |||||  | ||||  ||| | || || |  ||||| ||| |||||||    ||||||||||||   || || ||| | || ||||||| ||| |||||||| ||||| ||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>6</Hsp_num>
+      <Hsp_bit-score>56.2891</Hsp_bit-score>
+      <Hsp_score>61</Hsp_score>
+      <Hsp_evalue>0.0172271</Hsp_evalue>
+      <Hsp_query-from>608</Hsp_query-from>
+      <Hsp_query-to>663</Hsp_query-to>
+      <Hsp_hit-from>6756380</Hsp_hit-from>
+      <Hsp_hit-to>6756435</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>57</Hsp_align-len>
+      <Hsp_qseq>GTACAATGGT-ACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGG</Hsp_qseq>
+      <Hsp_hseq>GTACCATGGTGACAACCGA-CTCCAGCTTGACCGAATCAGTGTCTACTTCAACGAGG</Hsp_hseq>
+      <Hsp_midline>|||| ||||| ||  |||| |||||||| || || || |||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>7</Hsp_num>
+      <Hsp_bit-score>50.8789</Hsp_bit-score>
+      <Hsp_score>55</Hsp_score>
+      <Hsp_evalue>0.732513</Hsp_evalue>
+      <Hsp_query-from>782</Hsp_query-from>
+      <Hsp_query-to>1066</Hsp_query-to>
+      <Hsp_hit-from>5871728</Hsp_hit-from>
+      <Hsp_hit-to>5871444</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>182</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>285</Hsp_align-len>
+      <Hsp_qseq>CAAGTACGTTCCTCGCGCTGTTCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGCGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGATGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCTCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGAT</Hsp_qseq>
+      <Hsp_hseq>CAAGTACGTTCCTCGTGCCATCTACTGCGATCTCGAGCCCAATGTCGTCGATGAGGTCCGCACCGGTGCTTACCGCAACCTTTTCCACCCGGAGATGATGATCACTGGCAAGGAGGATGCTTCTAACAACTACGCCCGTGGCCATTACACTGTTGGCAAGGAGCTCATCGAGGGTGTTCTCGACAAGATTCGTCGTGTTGCCGACAACTGCGTCGGTCTTCAGGGCTTCCTTGTCTTCCACTCCTTCGGTGGTGGTACTGGTTCCGGTTTCGGTGCCCTCTTGAT</Hsp_hseq>
+      <Hsp_midline>||||||||||||||| ||  |   |  ||||||||||||   |  | | ||||  |||||  ||||| | | | |  | |||||||  || || |   |  ||   ||  ||   |  |||   |||||||  |||   || || |||||||  ||    |||||  | ||    || |||||     | ||||| |  |||||   ||| | | | || ||||| ||||   ||  ||||||  | ||||||||||| ||| ||||| | ||| |  | |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
   <Hit_id>gi|821160121|gb|KP834578.1|</Hit_id>
   <Hit_def>Epichloe sp. LpTG-2 strain NEA4_GC2 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834578</Hit_accession>
@@ -82,7 +224,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>3</Hit_num>
+  <Hit_num>4</Hit_num>
   <Hit_id>gi|635201624|gb|KF811602.1|</Hit_id>
   <Hit_def>Neotyphodium sp. FaTG-3 strain NEA21_GC2 beta-tubulin (tub2) pseudogene, complete sequence</Hit_def>
   <Hit_accession>KF811602</Hit_accession>
@@ -90,8 +232,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3635.07</Hsp_bit-score>
-      <Hsp_score>4030</Hsp_score>
+      <Hsp_bit-score>3635.98</Hsp_bit-score>
+      <Hsp_score>4031</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -110,7 +252,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>4</Hit_num>
+  <Hit_num>5</Hit_num>
   <Hit_id>gi|635201568|gb|KF811573.1|</Hit_id>
   <Hit_def>Neotyphodium sp. FaTG-4 strain NEA33_GC2 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811573</Hit_accession>
@@ -118,8 +260,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3617.04</Hsp_bit-score>
-      <Hsp_score>4010</Hsp_score>
+      <Hsp_bit-score>3617.94</Hsp_bit-score>
+      <Hsp_score>4011</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -138,7 +280,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>5</Hit_num>
+  <Hit_num>6</Hit_num>
   <Hit_id>gi|635201625|gb|KF811603.1|</Hit_id>
   <Hit_def>Neotyphodium sp. FaTG-3 strain NEA23_GC2 beta-tubulin (tub2) pseudogene, complete sequence</Hit_def>
   <Hit_accession>KF811603</Hit_accession>
@@ -146,8 +288,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3617.04</Hsp_bit-score>
-      <Hsp_score>4010</Hsp_score>
+      <Hsp_bit-score>3617.94</Hsp_bit-score>
+      <Hsp_score>4011</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -166,7 +308,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>6</Hit_num>
+  <Hit_num>7</Hit_num>
   <Hit_id>gi|821160129|gb|KP834582.1|</Hit_id>
   <Hit_def>Epichloe sp. LpTG-2 strain NEA11_GC2 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834582</Hit_accession>
@@ -174,8 +316,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3564.74</Hsp_bit-score>
-      <Hsp_score>3952</Hsp_score>
+      <Hsp_bit-score>3565.64</Hsp_bit-score>
+      <Hsp_score>3953</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -194,7 +336,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>7</Hit_num>
+  <Hit_num>8</Hit_num>
   <Hit_id>gi|635201578|gb|KF811578.1|</Hit_id>
   <Hit_def>Epichloe typhina strain 9636 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811578</Hit_accession>
@@ -222,7 +364,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>8</Hit_num>
+  <Hit_num>9</Hit_num>
   <Hit_id>gi|821160125|gb|KP834580.1|</Hit_id>
   <Hit_def>Epichloe festucae var. lolii strain NEA10 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834580</Hit_accession>
@@ -230,36 +372,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3312.27</Hsp_bit-score>
-      <Hsp_score>3672</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>2077</Hsp_query-to>
-      <Hsp_hit-from>270</Hsp_hit-from>
-      <Hsp_hit-to>2356</Hsp_hit-to>
-      <Hsp_query-frame>1</Hsp_query-frame>
-      <Hsp_hit-frame>1</Hsp_hit-frame>
-      <Hsp_identity>1996</Hsp_identity>
-      <Hsp_positive>1996</Hsp_positive>
-      <Hsp_gaps>22</Hsp_gaps>
-      <Hsp_align-len>2093</Hsp_align-len>
-      <Hsp_qseq>CTGCAGCCGCCTGCCCAGCCGGGGGCCCTGCC-AAGTCTGGCGGTGAACCGACCGGCTGTCCAATTCATCTCCAACGAAAAATCAACAACGTCCGCCCCG-GCTTAGTCCTCTCTTGTTCCCATACATTACACCTT-CTGGCGGACCGTGAAGCTTCGCCTGGCTCTCGTGATTCTTTTCATCATTATTCTTTTCCCAGCTTCAGAAGACTTGCCGTCGTCAACAAGTAACCGAGAAAATGCGTGAGATTGTGAGTTCAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCCGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGACGTGCACGCCCAACGGACAAGTCGTGATGAGAGGCGGACCGAGACAACATTGATGAATGCGGTATTCGAAAACCGTAGCTGACCTTTTT-------TCTTTGCC--TCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATCCGCCGACCTCGAACGACAGGCACAAATAACATGAAAAACTCACATTGATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGCAAGTCTTCATAATCTACAAAAGTCTCCATTGAGCTACATACT----GCCCTGGAGATGGGGCGGGAGAAGATGGAAAGGAAAAGTGTTATCATGCTAATCTATGTGACAGGCTTCTGGCAACAAGTACGTTCCTCGCGCTGTTCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGCGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGATGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCTCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCTACTTTTTCCGTCGTTCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCTGTCCATCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCCAACCCCTCGTACGGCGATTTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGCAAGTTGGCCGTCAACATGGTTCCTTTCCCCCGTCTGCACTTCTTCATGGTCGGCTTCGCCCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTCAGCGTCCCTGAGCTTACCCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCTGCCATTTTGTGAGTGAAATTGACAACCTCAACTTGAGAAGTCGTGTCGCAGTAACTGACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACAGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGGTGCCTGTTGGGTTATTTGAACCCCGCCATTGTATCTCGTTCAATTAAGCGTGG</Hsp_qseq>
-      <Hsp_hseq>CTGCCGCCGCCTCCCCAGCCAGGG-CCCTGCCCAAGTCTGGCGGTGAACCGACCGGCTGTCCAATTCGTCTCCAACGAAAAATCAACAACGTCCGCCCCCAGCTTAATTATCCCTTGTTCCCATACATTACACCTTTCTGGCGGACCGTGAAGCTTCACCTGTCTCTCGTGATTCCTTCCATCAGTTCTCTTTTCCCAGCTTCAGAAGATTTCCCTTCGTCAACAAGTAACCGACAAAATGCGTGAGATTGTAAGTTCAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCGGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGAAGTGCACGCCCAACGAACA-GTCGTGATGAGAGGCGGACCGAGACAAAATTAATGAATGCGGTATTCGAGAACTGTAGCTGACCTGTTTCTTTCCCTCTTTTCCCCTCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATTCGCCGACCTCGAACGACAGGCACAAACAGCATGAAAAACTCACATTCATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGTAAGTCTTCATAATCTA---AAGTCTCCATTGAGCTACATACATACCGCCCCGGAGATGGGACGGAAAGAGAACGAAAGAAAAAGTGTTATCATGCTCATCCATGTGACAGGCTTCTGGCAACAAGTATGTTCCTCGCGCTGTCCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGTGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGACGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCGCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCCACTTTTTCCGTCGTCCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCCGTCCACCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCTAACCCGTCATACGGTGATCTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGGAAGCTGGCCGTCAACATGGTTCCTTTCCCTCGTCTGCACTTCTTCATGGTCGGCTTCGCTCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTTAGCGTTCCTGAGCTTACTCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCCGCCATTTTGTGAGTGAAATTGACAACCCTAACTTGAG-AGTCGTGTCGCAGTAACTAACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACGGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGATGCCTGTTGGGTTATTCGAACTCCGCCATTGTATCTCGTTCAATTAAGCGTGG</Hsp_hseq>
-      <Hsp_midline>|||| ||||||| ||||||| ||| ||||||| |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||  ||||| |  || ||||||||||||||||||||||| |||||||||||||||||||| |||| |||||||||||| || ||||| |  ||||||||||||||||||||| || || |||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||| ||||||||||||||||||||||||||| ||| ||||||||||||||||| ||| ||||||||||| |||       ||||| ||  |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| | ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||   ||||||||||||||||||||||     |||| ||||||||| ||| |  |||  ||||| ||||||||||||||||| ||| |||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || ||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||  |||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||| |||||||||||||||||||||||||||||||</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>9</Hit_num>
-  <Hit_id>gi|821160117|gb|KP834576.1|</Hit_id>
-  <Hit_def>Epichloe festucae var. lolii strain NEA3 beta-tubulin (tub2) gene, complete cds</Hit_def>
-  <Hit_accession>KP834576</Hit_accession>
-  <Hit_len>2356</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3312.27</Hsp_bit-score>
-      <Hsp_score>3672</Hsp_score>
+      <Hsp_bit-score>3313.17</Hsp_bit-score>
+      <Hsp_score>3673</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -279,15 +393,15 @@
 </Hit>
 <Hit>
   <Hit_num>10</Hit_num>
-  <Hit_id>gi|821160107|gb|KP834571.1|</Hit_id>
-  <Hit_def>Epichloe festucae var. lolii strain 15931 beta-tubulin (tub2) gene, complete cds</Hit_def>
-  <Hit_accession>KP834571</Hit_accession>
+  <Hit_id>gi|821160117|gb|KP834576.1|</Hit_id>
+  <Hit_def>Epichloe festucae var. lolii strain NEA3 beta-tubulin (tub2) gene, complete cds</Hit_def>
+  <Hit_accession>KP834576</Hit_accession>
   <Hit_len>2356</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3312.27</Hsp_bit-score>
-      <Hsp_score>3672</Hsp_score>
+      <Hsp_bit-score>3313.17</Hsp_bit-score>
+      <Hsp_score>3673</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -307,15 +421,15 @@
 </Hit>
 <Hit>
   <Hit_num>11</Hit_num>
-  <Hit_id>gi|821160097|gb|KP834566.1|</Hit_id>
-  <Hit_def>Epichloe festucae var. lolii strain F02 beta-tubulin (tub2) gene, complete cds</Hit_def>
-  <Hit_accession>KP834566</Hit_accession>
+  <Hit_id>gi|821160107|gb|KP834571.1|</Hit_id>
+  <Hit_def>Epichloe festucae var. lolii strain 15931 beta-tubulin (tub2) gene, complete cds</Hit_def>
+  <Hit_accession>KP834571</Hit_accession>
   <Hit_len>2356</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3312.27</Hsp_bit-score>
-      <Hsp_score>3672</Hsp_score>
+      <Hsp_bit-score>3313.17</Hsp_bit-score>
+      <Hsp_score>3673</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -335,6 +449,34 @@
 </Hit>
 <Hit>
   <Hit_num>12</Hit_num>
+  <Hit_id>gi|821160097|gb|KP834566.1|</Hit_id>
+  <Hit_def>Epichloe festucae var. lolii strain F02 beta-tubulin (tub2) gene, complete cds</Hit_def>
+  <Hit_accession>KP834566</Hit_accession>
+  <Hit_len>2356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>3313.17</Hsp_bit-score>
+      <Hsp_score>3673</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>2077</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>2356</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>1996</Hsp_identity>
+      <Hsp_positive>1996</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>2093</Hsp_align-len>
+      <Hsp_qseq>CTGCAGCCGCCTGCCCAGCCGGGGGCCCTGCC-AAGTCTGGCGGTGAACCGACCGGCTGTCCAATTCATCTCCAACGAAAAATCAACAACGTCCGCCCCG-GCTTAGTCCTCTCTTGTTCCCATACATTACACCTT-CTGGCGGACCGTGAAGCTTCGCCTGGCTCTCGTGATTCTTTTCATCATTATTCTTTTCCCAGCTTCAGAAGACTTGCCGTCGTCAACAAGTAACCGAGAAAATGCGTGAGATTGTGAGTTCAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCCGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGACGTGCACGCCCAACGGACAAGTCGTGATGAGAGGCGGACCGAGACAACATTGATGAATGCGGTATTCGAAAACCGTAGCTGACCTTTTT-------TCTTTGCC--TCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATCCGCCGACCTCGAACGACAGGCACAAATAACATGAAAAACTCACATTGATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGCAAGTCTTCATAATCTACAAAAGTCTCCATTGAGCTACATACT----GCCCTGGAGATGGGGCGGGAGAAGATGGAAAGGAAAAGTGTTATCATGCTAATCTATGTGACAGGCTTCTGGCAACAAGTACGTTCCTCGCGCTGTTCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGCGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGATGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCTCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCTACTTTTTCCGTCGTTCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCTGTCCATCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCCAACCCCTCGTACGGCGATTTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGCAAGTTGGCCGTCAACATGGTTCCTTTCCCCCGTCTGCACTTCTTCATGGTCGGCTTCGCCCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTCAGCGTCCCTGAGCTTACCCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCTGCCATTTTGTGAGTGAAATTGACAACCTCAACTTGAGAAGTCGTGTCGCAGTAACTGACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACAGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGGTGCCTGTTGGGTTATTTGAACCCCGCCATTGTATCTCGTTCAATTAAGCGTGG</Hsp_qseq>
+      <Hsp_hseq>CTGCCGCCGCCTCCCCAGCCAGGG-CCCTGCCCAAGTCTGGCGGTGAACCGACCGGCTGTCCAATTCGTCTCCAACGAAAAATCAACAACGTCCGCCCCCAGCTTAATTATCCCTTGTTCCCATACATTACACCTTTCTGGCGGACCGTGAAGCTTCACCTGTCTCTCGTGATTCCTTCCATCAGTTCTCTTTTCCCAGCTTCAGAAGATTTCCCTTCGTCAACAAGTAACCGACAAAATGCGTGAGATTGTAAGTTCAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCGGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGAAGTGCACGCCCAACGAACA-GTCGTGATGAGAGGCGGACCGAGACAAAATTAATGAATGCGGTATTCGAGAACTGTAGCTGACCTGTTTCTTTCCCTCTTTTCCCCTCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATTCGCCGACCTCGAACGACAGGCACAAACAGCATGAAAAACTCACATTCATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGTAAGTCTTCATAATCTA---AAGTCTCCATTGAGCTACATACATACCGCCCCGGAGATGGGACGGAAAGAGAACGAAAGAAAAAGTGTTATCATGCTCATCCATGTGACAGGCTTCTGGCAACAAGTATGTTCCTCGCGCTGTCCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGTGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGACGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCGCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCCACTTTTTCCGTCGTCCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCCGTCCACCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCTAACCCGTCATACGGTGATCTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGGAAGCTGGCCGTCAACATGGTTCCTTTCCCTCGTCTGCACTTCTTCATGGTCGGCTTCGCTCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTTAGCGTTCCTGAGCTTACTCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCCGCCATTTTGTGAGTGAAATTGACAACCCTAACTTGAG-AGTCGTGTCGCAGTAACTAACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACGGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGATGCCTGTTGGGTTATTCGAACTCCGCCATTGTATCTCGTTCAATTAAGCGTGG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||| ||||||| ||| ||||||| |||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||  ||||| |  || ||||||||||||||||||||||| |||||||||||||||||||| |||| |||||||||||| || ||||| |  ||||||||||||||||||||| || || |||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||| ||||||||||||||||||||||||||| ||| ||||||||||||||||| ||| ||||||||||| |||       ||||| ||  |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| | ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||   ||||||||||||||||||||||     |||| ||||||||| ||| |  |||  ||||| ||||||||||||||||| ||| |||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || ||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||  |||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
   <Hit_id>gi|2292|emb|X56847.1|</Hit_id>
   <Hit_def>Acremonium coenophialum gene encoding beta-tubulin</Hit_def>
   <Hit_accession>X56847</Hit_accession>
@@ -342,8 +484,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3310.47</Hsp_bit-score>
-      <Hsp_score>3670</Hsp_score>
+      <Hsp_bit-score>3311.37</Hsp_bit-score>
+      <Hsp_score>3671</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2185</Hsp_query-to>
@@ -362,7 +504,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>13</Hit_num>
+  <Hit_num>14</Hit_num>
   <Hit_id>gi|635201612|gb|KF811595.1|</Hit_id>
   <Hit_def>Neotyphodium sp. FaTG-5 strain NEA19_GC2 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811595</Hit_accession>
@@ -370,8 +512,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3306.86</Hsp_bit-score>
-      <Hsp_score>3666</Hsp_score>
+      <Hsp_bit-score>3307.76</Hsp_bit-score>
+      <Hsp_score>3667</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -390,7 +532,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>14</Hit_num>
+  <Hit_num>15</Hit_num>
   <Hit_id>gi|635201608|gb|KF811593.1|</Hit_id>
   <Hit_def>Neotyphodium sp. FaTG-5 strain NEA18_GC2 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811593</Hit_accession>
@@ -398,8 +540,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3306.86</Hsp_bit-score>
-      <Hsp_score>3666</Hsp_score>
+      <Hsp_bit-score>3307.76</Hsp_bit-score>
+      <Hsp_score>3667</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -418,7 +560,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>15</Hit_num>
+  <Hit_num>16</Hit_num>
   <Hit_id>gi|821160123|gb|KP834579.1|</Hit_id>
   <Hit_def>Epichloe festucae var. lolii strain NEA2 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834579</Hit_accession>
@@ -446,7 +588,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>16</Hit_num>
+  <Hit_num>17</Hit_num>
   <Hit_id>gi|821160109|gb|KP834572.1|</Hit_id>
   <Hit_def>Epichloe festucae var. lolii strain AR1 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834572</Hit_accession>
@@ -474,7 +616,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>17</Hit_num>
+  <Hit_num>18</Hit_num>
   <Hit_id>gi|821160105|gb|KP834570.1|</Hit_id>
   <Hit_def>Epichloe festucae var. lolii strain 15714 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834570</Hit_accession>
@@ -502,7 +644,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>18</Hit_num>
+  <Hit_num>19</Hit_num>
   <Hit_id>gi|821160103|gb|KP834569.1|</Hit_id>
   <Hit_def>Epichloe festucae var. lolii strain 15311 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834569</Hit_accession>
@@ -530,7 +672,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>19</Hit_num>
+  <Hit_num>20</Hit_num>
   <Hit_id>gi|635201582|gb|KF811580.1|</Hit_id>
   <Hit_def>Neotyphodium coenophialum strain E34_GC2 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811580</Hit_accession>
@@ -558,7 +700,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>20</Hit_num>
+  <Hit_num>21</Hit_num>
   <Hit_id>gi|821160137|gb|KP834586.1|</Hit_id>
   <Hit_def>Epichloe festucae var. lolii strain SE beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834586</Hit_accession>
@@ -566,8 +708,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3297.84</Hsp_bit-score>
-      <Hsp_score>3656</Hsp_score>
+      <Hsp_bit-score>3298.75</Hsp_bit-score>
+      <Hsp_score>3657</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -586,7 +728,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>21</Hit_num>
+  <Hit_num>22</Hit_num>
   <Hit_id>gi|821160135|gb|KP834585.1|</Hit_id>
   <Hit_def>Epichloe sp. LpTG-4 strain E1 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834585</Hit_accession>
@@ -594,8 +736,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3297.84</Hsp_bit-score>
-      <Hsp_score>3656</Hsp_score>
+      <Hsp_bit-score>3298.75</Hsp_bit-score>
+      <Hsp_score>3657</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -614,7 +756,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>22</Hit_num>
+  <Hit_num>23</Hit_num>
   <Hit_id>gi|821160133|gb|KP834584.1|</Hit_id>
   <Hit_def>Epichloe festucae var. lolii strain 15335 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834584</Hit_accession>
@@ -622,8 +764,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3297.84</Hsp_bit-score>
-      <Hsp_score>3656</Hsp_score>
+      <Hsp_bit-score>3298.75</Hsp_bit-score>
+      <Hsp_score>3657</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -642,7 +784,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>23</Hit_num>
+  <Hit_num>24</Hit_num>
   <Hit_id>gi|821160131|gb|KP834583.1|</Hit_id>
   <Hit_def>Epichloe sp. LpTG-3 strain NEA12 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834583</Hit_accession>
@@ -650,8 +792,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3297.84</Hsp_bit-score>
-      <Hsp_score>3656</Hsp_score>
+      <Hsp_bit-score>3298.75</Hsp_bit-score>
+      <Hsp_score>3657</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -670,7 +812,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>24</Hit_num>
+  <Hit_num>25</Hit_num>
   <Hit_id>gi|821160119|gb|KP834577.1|</Hit_id>
   <Hit_def>Epichloe sp. LpTG-2 strain NEA4_GC1 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834577</Hit_accession>
@@ -678,8 +820,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3297.84</Hsp_bit-score>
-      <Hsp_score>3656</Hsp_score>
+      <Hsp_bit-score>3298.75</Hsp_bit-score>
+      <Hsp_score>3657</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -698,7 +840,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>25</Hit_num>
+  <Hit_num>26</Hit_num>
   <Hit_id>gi|821160115|gb|KP834575.1|</Hit_id>
   <Hit_def>Epichloe festucae var. lolii strain NA6 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834575</Hit_accession>
@@ -706,8 +848,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3297.84</Hsp_bit-score>
-      <Hsp_score>3656</Hsp_score>
+      <Hsp_bit-score>3298.75</Hsp_bit-score>
+      <Hsp_score>3657</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -726,7 +868,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>26</Hit_num>
+  <Hit_num>27</Hit_num>
   <Hit_id>gi|821160113|gb|KP834574.1|</Hit_id>
   <Hit_def>Epichloe festucae var. lolii strain E09 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834574</Hit_accession>
@@ -734,8 +876,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3297.84</Hsp_bit-score>
-      <Hsp_score>3656</Hsp_score>
+      <Hsp_bit-score>3298.75</Hsp_bit-score>
+      <Hsp_score>3657</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -754,7 +896,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>27</Hit_num>
+  <Hit_num>28</Hit_num>
   <Hit_id>gi|821160111|gb|KP834573.1|</Hit_id>
   <Hit_def>Epichloe festucae var. lolii strain C09 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834573</Hit_accession>
@@ -762,8 +904,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3297.84</Hsp_bit-score>
-      <Hsp_score>3656</Hsp_score>
+      <Hsp_bit-score>3298.75</Hsp_bit-score>
+      <Hsp_score>3657</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -782,7 +924,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>28</Hit_num>
+  <Hit_num>29</Hit_num>
   <Hit_id>gi|821160101|gb|KP834568.1|</Hit_id>
   <Hit_def>Epichloe sp. LpTG-3 strain 15311 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834568</Hit_accession>
@@ -790,36 +932,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3297.84</Hsp_bit-score>
-      <Hsp_score>3656</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>2077</Hsp_query-to>
-      <Hsp_hit-from>270</Hsp_hit-from>
-      <Hsp_hit-to>2359</Hsp_hit-to>
-      <Hsp_query-frame>1</Hsp_query-frame>
-      <Hsp_hit-frame>1</Hsp_hit-frame>
-      <Hsp_identity>1995</Hsp_identity>
-      <Hsp_positive>1995</Hsp_positive>
-      <Hsp_gaps>25</Hsp_gaps>
-      <Hsp_align-len>2096</Hsp_align-len>
-      <Hsp_qseq>CTGCAGCCGCCTGCCCAGCCGGGGGCCCTGCC-AAGTCTGG---CGGTGAACCGACCGGCTGTCCAATTCATCTCCAACGAAAAATCAACAACGTCCGCCCCG-GCTTAGTCCTCTCTTGTTCCCATACATTACACCTT-CTGGCGGACCGTGAAGCTTCGCCTGGCTCTCGTGATTCTTTTCATCATTATTCTTTTCCCAGCTTCAGAAGACTTGCCGTCGTCAACAAGTAACCGAGAAAATGCGTGAGATTGTGAGTTCAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCCGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGACGTGCACGCCCAACGGACAAGTCGTGATGAGAGGCGGACCGAGACAACATTGATGAATGCGGTATTCGAAAACCGTAGCTGACCTTTTT-------TCTTTGCC--TCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATCCGCCGACCTCGAACGACAGGCACAAATAACATGAAAAACTCACATTGATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGCAAGTCTTCATAATCTACAAAAGTCTCCATTGAGCTACATACT----GCCCTGGAGATGGGGCGGGAGAAGATGGAAAGGAAAAGTGTTATCATGCTAATCTATGTGACAGGCTTCTGGCAACAAGTACGTTCCTCGCGCTGTTCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGCGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGATGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCTCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCTACTTTTTCCGTCGTTCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCTGTCCATCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCCAACCCCTCGTACGGCGATTTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGCAAGTTGGCCGTCAACATGGTTCCTTTCCCCCGTCTGCACTTCTTCATGGTCGGCTTCGCCCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTCAGCGTCCCTGAGCTTACCCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCTGCCATTTTGTGAGTGAAATTGACAACCTCAACTTGAGAAGTCGTGTCGCAGTAACTGACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACAGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGGTGCCTGTTGGGTTATTTGAACCCCGCCATTGTATCTCGTTCAATTAAGCGTGG</Hsp_qseq>
-      <Hsp_hseq>CTGCCGCCGCCTCCCCAGCCAGGG-CCCTGCCCAAGTCTGGTGGCGGTGAACCGACCGGCTGTCCAATTCGTCTCCAACGAAAAATCAACAACGTCCGCCCCCAGCTTAATTATCCCTTGTTCCCATACATTACACCTTTCTGGCGGACCGTGAAGCTTCACCTGTCTCTCGTGATTCCTTCCATCAGTTCTCTTTTCCCAGCTTCAGAAGATTTCCCTTCGTCAACAAGTAACCGACAAAATGCGTGAGATTGTAAGTTCAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCGGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGAAGTGCACGCCCAACGAACA-GTCGTGATGAGAGGCGGACCGAGACAAAATTAATGAATGCGGTATTCGAGAACTGTAGCTGACCTGTTTCTTTCCCTCTTTTCCCCTCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATTCGCCGACCTCGAACGACAGGCACAAACAGCATGAAAAACTCACATTCATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGTAAGTCTTCATAATCTA---AAGTCTCCATTGAGCTACATACATACCGCCCCGGAGATGGGACGGAAAGAGAACGAAAGAAAAAGTGTTATCATGCTCATCCATGTGACAGGCTTCTGGCAACAAGTATGTTCCTCGCGCTGTCCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGTGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGACGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCGCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCCACTTTTTCCGTCGTCCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCCGTCCACCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCTAACCCGTCATACGGTGATCTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGGAAGCTGGCCGTAAACATGGTTCCTTTCCCTCGTCTGCACTTCTTCATGGTCGGCTTCGCTCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTTAGCGTTCCTGAGCTTACTCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCCGCCATTTTGTGAGTGAAATTGACAACCCTAACTTGAG-AGTCGTGTCGCAGTAACTAACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACGGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGATGCCTGTTGGGTTATTCGAACTCCGCCATTGTATCTCGTTCAATTAAGCGTGG</Hsp_hseq>
-      <Hsp_midline>|||| ||||||| ||||||| ||| ||||||| ||||||||   |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||  ||||| |  || ||||||||||||||||||||||| |||||||||||||||||||| |||| |||||||||||| || ||||| |  ||||||||||||||||||||| || || |||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||| ||||||||||||||||||||||||||| ||| ||||||||||||||||| ||| ||||||||||| |||       ||||| ||  |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| | ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||   ||||||||||||||||||||||     |||| ||||||||| ||| |  |||  ||||| ||||||||||||||||| ||| |||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || ||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||| ||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||  |||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||| |||||||||||||||||||||||||||||||</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>29</Hit_num>
-  <Hit_id>gi|821160099|gb|KP834567.1|</Hit_id>
-  <Hit_def>Epichloe sp. LpTG-3 strain 15310 beta-tubulin (tub2) gene, complete cds</Hit_def>
-  <Hit_accession>KP834567</Hit_accession>
-  <Hit_len>2359</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3297.84</Hsp_bit-score>
-      <Hsp_score>3656</Hsp_score>
+      <Hsp_bit-score>3298.75</Hsp_bit-score>
+      <Hsp_score>3657</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -839,6 +953,34 @@
 </Hit>
 <Hit>
   <Hit_num>30</Hit_num>
+  <Hit_id>gi|821160099|gb|KP834567.1|</Hit_id>
+  <Hit_def>Epichloe sp. LpTG-3 strain 15310 beta-tubulin (tub2) gene, complete cds</Hit_def>
+  <Hit_accession>KP834567</Hit_accession>
+  <Hit_len>2359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>3298.75</Hsp_bit-score>
+      <Hsp_score>3657</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>2077</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>2359</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>1995</Hsp_identity>
+      <Hsp_positive>1995</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>2096</Hsp_align-len>
+      <Hsp_qseq>CTGCAGCCGCCTGCCCAGCCGGGGGCCCTGCC-AAGTCTGG---CGGTGAACCGACCGGCTGTCCAATTCATCTCCAACGAAAAATCAACAACGTCCGCCCCG-GCTTAGTCCTCTCTTGTTCCCATACATTACACCTT-CTGGCGGACCGTGAAGCTTCGCCTGGCTCTCGTGATTCTTTTCATCATTATTCTTTTCCCAGCTTCAGAAGACTTGCCGTCGTCAACAAGTAACCGAGAAAATGCGTGAGATTGTGAGTTCAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCCGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGACGTGCACGCCCAACGGACAAGTCGTGATGAGAGGCGGACCGAGACAACATTGATGAATGCGGTATTCGAAAACCGTAGCTGACCTTTTT-------TCTTTGCC--TCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATCCGCCGACCTCGAACGACAGGCACAAATAACATGAAAAACTCACATTGATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGCAAGTCTTCATAATCTACAAAAGTCTCCATTGAGCTACATACT----GCCCTGGAGATGGGGCGGGAGAAGATGGAAAGGAAAAGTGTTATCATGCTAATCTATGTGACAGGCTTCTGGCAACAAGTACGTTCCTCGCGCTGTTCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGCGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGATGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCTCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCTACTTTTTCCGTCGTTCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCTGTCCATCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCCAACCCCTCGTACGGCGATTTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGCAAGTTGGCCGTCAACATGGTTCCTTTCCCCCGTCTGCACTTCTTCATGGTCGGCTTCGCCCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTCAGCGTCCCTGAGCTTACCCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCTGCCATTTTGTGAGTGAAATTGACAACCTCAACTTGAGAAGTCGTGTCGCAGTAACTGACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACAGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGGTGCCTGTTGGGTTATTTGAACCCCGCCATTGTATCTCGTTCAATTAAGCGTGG</Hsp_qseq>
+      <Hsp_hseq>CTGCCGCCGCCTCCCCAGCCAGGG-CCCTGCCCAAGTCTGGTGGCGGTGAACCGACCGGCTGTCCAATTCGTCTCCAACGAAAAATCAACAACGTCCGCCCCCAGCTTAATTATCCCTTGTTCCCATACATTACACCTTTCTGGCGGACCGTGAAGCTTCACCTGTCTCTCGTGATTCCTTCCATCAGTTCTCTTTTCCCAGCTTCAGAAGATTTCCCTTCGTCAACAAGTAACCGACAAAATGCGTGAGATTGTAAGTTCAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCGGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGAAGTGCACGCCCAACGAACA-GTCGTGATGAGAGGCGGACCGAGACAAAATTAATGAATGCGGTATTCGAGAACTGTAGCTGACCTGTTTCTTTCCCTCTTTTCCCCTCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATTCGCCGACCTCGAACGACAGGCACAAACAGCATGAAAAACTCACATTCATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGTAAGTCTTCATAATCTA---AAGTCTCCATTGAGCTACATACATACCGCCCCGGAGATGGGACGGAAAGAGAACGAAAGAAAAAGTGTTATCATGCTCATCCATGTGACAGGCTTCTGGCAACAAGTATGTTCCTCGCGCTGTCCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGTGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGACGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCGCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCCACTTTTTCCGTCGTCCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCCGTCCACCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCTAACCCGTCATACGGTGATCTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGGAAGCTGGCCGTAAACATGGTTCCTTTCCCTCGTCTGCACTTCTTCATGGTCGGCTTCGCTCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTTAGCGTTCCTGAGCTTACTCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCCGCCATTTTGTGAGTGAAATTGACAACCCTAACTTGAG-AGTCGTGTCGCAGTAACTAACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACGGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGATGCCTGTTGGGTTATTCGAACTCCGCCATTGTATCTCGTTCAATTAAGCGTGG</Hsp_hseq>
+      <Hsp_midline>|||| ||||||| ||||||| ||| ||||||| ||||||||   |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||  ||||| |  || ||||||||||||||||||||||| |||||||||||||||||||| |||| |||||||||||| || ||||| |  ||||||||||||||||||||| || || |||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||| ||||||||||||||||||||||||||| ||| ||||||||||||||||| ||| ||||||||||| |||       ||||| ||  |||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| | ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||   ||||||||||||||||||||||     |||| ||||||||| ||| |  |||  ||||| ||||||||||||||||| ||| |||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| || ||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||| ||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||  |||||||| |||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
   <Hit_id>gi|635201619|gb|KF811599.1|</Hit_id>
   <Hit_def>Neotyphodium coenophialum strain NEA22_GC2 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811599</Hit_accession>
@@ -846,8 +988,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3297.84</Hsp_bit-score>
-      <Hsp_score>3656</Hsp_score>
+      <Hsp_bit-score>3298.75</Hsp_bit-score>
+      <Hsp_score>3657</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -866,7 +1008,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>31</Hit_num>
+  <Hit_num>32</Hit_num>
   <Hit_id>gi|52546971|gb|AY722412.1|</Hit_id>
   <Hit_def>Epichloe festucae isolate Fl1 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>AY722412</Hit_accession>
@@ -874,8 +1016,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3297.84</Hsp_bit-score>
-      <Hsp_score>3656</Hsp_score>
+      <Hsp_bit-score>3298.75</Hsp_bit-score>
+      <Hsp_score>3657</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -894,7 +1036,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>32</Hit_num>
+  <Hit_num>33</Hit_num>
   <Hit_id>gi|821160127|gb|KP834581.1|</Hit_id>
   <Hit_def>Epichloe sp. LpTG-2 strain NEA11_GC1 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KP834581</Hit_accession>
@@ -922,7 +1064,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>33</Hit_num>
+  <Hit_num>34</Hit_num>
   <Hit_id>gi|635201614|gb|KF811596.1|</Hit_id>
   <Hit_def>Neotyphodium coenophialum strain NEA20_GC2 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811596</Hit_accession>
@@ -930,8 +1072,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3292.43</Hsp_bit-score>
-      <Hsp_score>3650</Hsp_score>
+      <Hsp_bit-score>3293.34</Hsp_bit-score>
+      <Hsp_score>3651</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2074</Hsp_query-to>
@@ -950,7 +1092,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>34</Hit_num>
+  <Hit_num>35</Hit_num>
   <Hit_id>gi|635201602|gb|KF811590.1|</Hit_id>
   <Hit_def>Neotyphodium sp. FaTG-2 strain NEA17_GC1 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811590</Hit_accession>
@@ -978,7 +1120,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>35</Hit_num>
+  <Hit_num>36</Hit_num>
   <Hit_id>gi|635201565|gb|KF811571.1|</Hit_id>
   <Hit_def>Neotyphodium sp. FaTG-3 strain NEA21_GC1 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811571</Hit_accession>
@@ -1006,7 +1148,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>36</Hit_num>
+  <Hit_num>37</Hit_num>
   <Hit_id>gi|635201570|gb|KF811574.1|</Hit_id>
   <Hit_def>Neotyphodium sp. FaTG-4 strain NEA33_GC1 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811574</Hit_accession>
@@ -1014,8 +1156,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3281.61</Hsp_bit-score>
-      <Hsp_score>3638</Hsp_score>
+      <Hsp_bit-score>3282.52</Hsp_bit-score>
+      <Hsp_score>3639</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -1034,7 +1176,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>37</Hit_num>
+  <Hit_num>38</Hit_num>
   <Hit_id>gi|635201580|gb|KF811579.1|</Hit_id>
   <Hit_def>Epichloe baconii strain 9707 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811579</Hit_accession>
@@ -1062,7 +1204,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>38</Hit_num>
+  <Hit_num>39</Hit_num>
   <Hit_id>gi|635201574|gb|KF811576.1|</Hit_id>
   <Hit_def>Neotyphodium sp. FaTG-2 strain NEA32_GC2 beta-tubulin (tub2) gene, complete cds &gt;gi|635201604|gb|KF811591.1| Neotyphodium sp. FaTG-2 strain NEA17_GC2 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811576</Hit_accession>
@@ -1070,8 +1212,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3274.4</Hsp_bit-score>
-      <Hsp_score>3630</Hsp_score>
+      <Hsp_bit-score>3275.3</Hsp_bit-score>
+      <Hsp_score>3631</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -1090,7 +1232,35 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>39</Hit_num>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|635201572|gb|KF811575.1|</Hit_id>
+  <Hit_def>Neotyphodium sp. FaTG-2 strain NEA32_GC1 beta-tubulin (tub2) gene, complete cds</Hit_def>
+  <Hit_accession>KF811575</Hit_accession>
+  <Hit_len>2351</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>3264.48</Hsp_bit-score>
+      <Hsp_score>3619</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>2077</Hsp_query-to>
+      <Hsp_hit-from>261</Hsp_hit-from>
+      <Hsp_hit-to>2351</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>1992</Hsp_identity>
+      <Hsp_positive>1992</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>2098</Hsp_align-len>
+      <Hsp_qseq>CTGCAGCCGCCTGCCCAGCCGGGGGCCCTGCC-AAGT-CTGGCGGTGAACCGACCGGCTGTCCAATTCATCTCCAACGAAAAATCAACAACGTCCGCCCCGGCTTAGTCCTCTCTTGTTCCCATACATTA-CACCTT-CTGGCGGACCGTGAAGCTTCGCCTGGCTCTCGTGATTCTTTTCATCATTATTCTTTTCCCAGCTTCAGAAGACTTGCCGTCGTCAACAAGTAACCGAGAAAA-TGCGTGAGATTGTGAGTTCAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCCGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGACGTGCACGCCCAACGGACAAGTCGTGATGAGAGGCGGACCGAGACAACATTGATGAATGCGGTATTCGAAAACCGTAGCTGACCTTTTT-------TCTTTGCC--TCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATCCGCCGACCTCGAACGACAGGCACAAATAACATGAAAAA-CTCACATTGATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGCAAGTCTTCATAATCTACAAAAGTCTCCATTGAGCTACATACT----GCCCTGGAGATGGGGCGGGAGAAGATGGAAAGGAAAAGTGTTATCATGCTAATCTATGTGACAGGCTTCTGGCAACAAGTACGTTCCTCGCGCTGTTCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGCGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGATGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCTCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCTACTTTTTCCGTCGTTCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCTGTCCATCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCCAACCCCTCGTACGGCGATTTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGCAAGTTGGCCGTCAACATGGTTCCTTTCCCCCGTCTGCACTTCTTCATGGTCGGCTTCGCCCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTCAGCGTCCCTGAGCTTACCCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCTGCCATTTTGTGAGTGAAATTGACAACCTCAACTTGAGAAGTC--GTGTCGCAGTAACTGACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACAGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGGTGCCTGTTGGGTTATTTGAACCCCGCCATTGTATCTCGTTCAATTAAGCGTGG</Hsp_qseq>
+      <Hsp_hseq>CTGCAGCCGCCTCCCCAGCCAGGG-CCCTGCCCAAGTTCTGGCGGTGAACCGACCGGCTGTCCAATTCATTTCCAACGAAAAATCAACAACGTCCGCCCCGGCTTCTTTATCCCTTGTTCCCGTACATCAACACATTTCTGGCGGACCGTGAAGCTTCACCTGTCTCTCGTGATTCTTTCCATCAGTTTTCTTTTCCCAGCTTCAGAAGATTTCCCGTCGTCAACAAGTAACCGAAAAAAATGCGTGAGATTGTAAGTTCAAACTCTCTGTCTGTCTTGGAACCCCTCTCCTCGACGCGTTCCGGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGACGTGCACGCCCAACGAACA-GTCGTGATGAGAGGCGGATCGAGACAAAATTAATGAATGCGGTATTCGAGAACTGTAGCTGACCTGTTTCTTTCCCTCTTTTCCCCTCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATC-GCCGACCTCGAACGACAGGCACAAACAGCATGAAAAAACTCACATTCATCTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGTAAGTCTTCATAATCTA---AAGTCTCCATTGAGCTACATACATACCGCCCCGGAGATGGGACGGAAAGAGAACGAAAGAAAAAGTGTTATCATGCTCATCCATGTGACAGGCTTCTGGCAACAAGTATGTTCCTCGCGCTGTCCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGTGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGACGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCGCTTGGTGGTGGCACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCCACTTTCTCCGTCGTCCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCCGTCCACCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCCAACCCCTCGTACGGTGATCTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGTAAGCTGGCCGTCAACATGGTTCCTTTCCCTCGTCTGCACTTCTTCATGGTCGGCTTCGCTCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTTAGCGTTCCTGAGCTTACTCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCTGCCATTTTGTGAGTGAAATTGACAACCCTAACTTGAG-AGTCGTGTGTCGCAGTAACTAACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACGGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGATGCCTGTTGGGTTATTCGAACTCCGCCATTGTATCTCGTTCAATTAAGCGTGG</Hsp_hseq>
+      <Hsp_midline>|||||||||||| ||||||| ||| ||||||| |||| |||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||  |  || ||||||||| ||||| | ||| || |||||||||||||||||||| |||| ||||||||||||||| ||||| | |||||||||||||||||||||| || ||||||||||||||||||||| |||| ||||||||||||| ||||||| |||||||| ||||||||   ||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||||||||| |||||||| ||| ||||||||||||||||| ||| ||||||||||| |||       ||||| ||  ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| | ||||||||| |||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||   ||||||||||||||||||||||     |||| ||||||||| ||| |  |||  ||||| ||||||||||||||||| ||| |||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||| ||||  |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||| |||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
   <Hit_id>gi|635201606|gb|KF811592.1|</Hit_id>
   <Hit_def>Neotyphodium sp. FaTG-5 strain NEA18_GC1 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811592</Hit_accession>
@@ -1118,35 +1288,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>40</Hit_num>
-  <Hit_id>gi|635201572|gb|KF811575.1|</Hit_id>
-  <Hit_def>Neotyphodium sp. FaTG-2 strain NEA32_GC1 beta-tubulin (tub2) gene, complete cds</Hit_def>
-  <Hit_accession>KF811575</Hit_accession>
-  <Hit_len>2351</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3263.58</Hsp_bit-score>
-      <Hsp_score>3618</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>2077</Hsp_query-to>
-      <Hsp_hit-from>261</Hsp_hit-from>
-      <Hsp_hit-to>2351</Hsp_hit-to>
-      <Hsp_query-frame>1</Hsp_query-frame>
-      <Hsp_hit-frame>1</Hsp_hit-frame>
-      <Hsp_identity>1992</Hsp_identity>
-      <Hsp_positive>1992</Hsp_positive>
-      <Hsp_gaps>28</Hsp_gaps>
-      <Hsp_align-len>2098</Hsp_align-len>
-      <Hsp_qseq>CTGCAGCCGCCTGCCCAGCCGGGGGCCCTGCC-AAGT-CTGGCGGTGAACCGACCGGCTGTCCAATTCATCTCCAACGAAAAATCAACAACGTCCGCCCCGGCTTAGTCCTCTCTTGTTCCCATACATTA-CACCTT-CTGGCGGACCGTGAAGCTTCGCCTGGCTCTCGTGATTCTTTTCATCATTATTCTTTTCCCAGCTTCAGAAGACTTGCCGTCGTCAACAAGTAACCGAGAAAA-TGCGTGAGATTGTGAGTTCAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCCGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGACGTGCACGCCCAACGGACAAGTCGTGATGAGAGGCGGACCGAGACAACATTGATGAATGCGGTATTCGAAAACCGTAGCTGACCTTTTT-------TCTTTGCC--TCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATCCGCCGACCTCGAACGACAGGCACAAATAACATGAAAAA-CTCACATTGATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGCAAGTCTTCATAATCTACAAAAGTCTCCATTGAGCTACATACT----GCCCTGGAGATGGGGCGGGAGAAGATGGAAAGGAAAAGTGTTATCATGCTAATCTATGTGACAGGCTTCTGGCAACAAGTACGTTCCTCGCGCTGTTCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGCGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGATGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCTCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCTACTTTTTCCGTCGTTCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCTGTCCATCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCCAACCCCTCGTACGGCGATTTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGCAAGTTGGCCGTCAACATGGTTCCTTTCCCCCGTCTGCACTTCTTCATGGTCGGCTTCGCCCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTCAGCGTCCCTGAGCTTACCCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCTGCCATTTTGTGAGTGAAATTGACAACCTCAACTTGAGAAGTC--GTGTCGCAGTAACTGACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACAGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGGTGCCTGTTGGGTTATTTGAACCCCGCCATTGTATCTCGTTCAATTAAGCGTGG</Hsp_qseq>
-      <Hsp_hseq>CTGCAGCCGCCTCCCCAGCCAGGG-CCCTGCCCAAGTTCTGGCGGTGAACCGACCGGCTGTCCAATTCATTTCCAACGAAAAATCAACAACGTCCGCCCCGGCTTCTTTATCCCTTGTTCCCGTACATCAACACATTTCTGGCGGACCGTGAAGCTTCACCTGTCTCTCGTGATTCTTTCCATCAGTTTTCTTTTCCCAGCTTCAGAAGATTTCCCGTCGTCAACAAGTAACCGAAAAAAATGCGTGAGATTGTAAGTTCAAACTCTCTGTCTGTCTTGGAACCCCTCTCCTCGACGCGTTCCGGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGACGTGCACGCCCAACGAACA-GTCGTGATGAGAGGCGGATCGAGACAAAATTAATGAATGCGGTATTCGAGAACTGTAGCTGACCTGTTTCTTTCCCTCTTTTCCCCTCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATC-GCCGACCTCGAACGACAGGCACAAACAGCATGAAAAAACTCACATTCATCTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGTAAGTCTTCATAATCTA---AAGTCTCCATTGAGCTACATACATACCGCCCCGGAGATGGGACGGAAAGAGAACGAAAGAAAAAGTGTTATCATGCTCATCCATGTGACAGGCTTCTGGCAACAAGTATGTTCCTCGCGCTGTCCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGTGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGACGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCGCTTGGTGGTGGCACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCCACTTTCTCCGTCGTCCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCCGTCCACCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCCAACCCCTCGTACGGTGATCTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGTAAGCTGGCCGTCAACATGGTTCCTTTCCCTCGTCTGCACTTCTTCATGGTCGGCTTCGCTCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTTAGCGTTCCTGAGCTTACTCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCTGCCATTTTGTGAGTGAAATTGACAACCCTAACTTGAG-AGTCGTGTGTCGCAGTAACTAACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACGGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAAGATGCCTGTTGGGTTATTCGAACTCCGCCATTGTATCTCGTTCAATTAAGCGTGG</Hsp_hseq>
-      <Hsp_midline>|||||||||||| ||||||| ||| ||||||| |||| |||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||  |  || ||||||||| ||||| | ||| || |||||||||||||||||||| |||| ||||||||||||||| ||||| | |||||||||||||||||||||| || ||||||||||||||||||||| |||| ||||||||||||| ||||||| |||||||| ||||||||   ||| |||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| |||||||||||||||||| |||||||| ||| ||||||||||||||||| ||| ||||||||||| |||       ||||| ||  ||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| | ||||||||| |||||||| || ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||   ||||||||||||||||||||||     |||| ||||||||| ||| |  |||  ||||| ||||||||||||||||| ||| |||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||| ||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||| ||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||| ||||  |||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||| |||| |||||||||||||||||||||||||||||||</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>41</Hit_num>
+  <Hit_num>42</Hit_num>
   <Hit_id>gi|635201610|gb|KF811594.1|</Hit_id>
   <Hit_def>Neotyphodium sp. FaTG-5 strain NEA19_GC1 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811594</Hit_accession>
@@ -1174,7 +1316,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>42</Hit_num>
+  <Hit_num>43</Hit_num>
   <Hit_id>gi|635201590|gb|KF811584.1|</Hit_id>
   <Hit_def>Neotyphodium coenophialum strain NEA14_GC2 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811584</Hit_accession>
@@ -1182,8 +1324,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3249.15</Hsp_bit-score>
-      <Hsp_score>3602</Hsp_score>
+      <Hsp_bit-score>3250.06</Hsp_bit-score>
+      <Hsp_score>3603</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2040</Hsp_query-to>
@@ -1202,7 +1344,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>43</Hit_num>
+  <Hit_num>44</Hit_num>
   <Hit_id>gi|635201596|gb|KF811587.1|</Hit_id>
   <Hit_def>Neotyphodium coenophialum strain NEA16_GC2 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811587</Hit_accession>
@@ -1230,7 +1372,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>44</Hit_num>
+  <Hit_num>45</Hit_num>
   <Hit_id>gi|635201584|gb|KF811581.1|</Hit_id>
   <Hit_def>Neotyphodium coenophialum strain E34_GC1 beta-tubulin (tub2) gene, complete cds</Hit_def>
   <Hit_accession>KF811581</Hit_accession>
@@ -1258,7 +1400,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>45</Hit_num>
+  <Hit_num>46</Hit_num>
   <Hit_id>gi|635201616|gb|KF811597.1|</Hit_id>
   <Hit_def>Neotyphodium coenophialum strain NEA20_GC1 beta-tubulin (tub2) pseudogene, partial sequence &gt;gi|635201621|gb|KF811600.1| Neotyphodium coenophialum strain NEA22_GC1 beta-tubulin (tub2) pseudogene, partial sequence</Hit_def>
   <Hit_accession>KF811597</Hit_accession>
@@ -1266,8 +1408,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3207.68</Hsp_bit-score>
-      <Hsp_score>3556</Hsp_score>
+      <Hsp_bit-score>3208.58</Hsp_bit-score>
+      <Hsp_score>3557</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>2077</Hsp_query-to>
@@ -1286,7 +1428,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>46</Hit_num>
+  <Hit_num>47</Hit_num>
   <Hit_id>gi|635201598|gb|KF811588.1|</Hit_id>
   <Hit_def>Neotyphodium coenophialum strain NEA16_GC1 beta-tubulin (tub2) gene, partial cds</Hit_def>
   <Hit_accession>KF811588</Hit_accession>
@@ -1314,7 +1456,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>47</Hit_num>
+  <Hit_num>48</Hit_num>
   <Hit_id>gi|763552546|gb|KP689573.1|</Hit_id>
   <Hit_def>Epichloe sylvatica strain GR 10156 beta-tubulin TubB (tubB) gene, complete cds</Hit_def>
   <Hit_accession>KP689573</Hit_accession>
@@ -1322,8 +1464,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>3052.59</Hsp_bit-score>
-      <Hsp_score>3384</Hsp_score>
+      <Hsp_bit-score>3053.49</Hsp_bit-score>
+      <Hsp_score>3385</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>236</Hsp_query-from>
       <Hsp_query-to>2022</Hsp_query-to>
@@ -1342,7 +1484,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>48</Hit_num>
+  <Hit_num>49</Hit_num>
   <Hit_id>gi|511634154|gb|KF042043.1|</Hit_id>
   <Hit_def>Epichloe typhina strain E5819 beta-tubulin (tubB) gene, complete cds</Hit_def>
   <Hit_accession>KF042043</Hit_accession>
@@ -1370,7 +1512,7 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>49</Hit_num>
+  <Hit_num>50</Hit_num>
   <Hit_id>gi|511634188|gb|KF042060.1|</Hit_id>
   <Hit_def>Epichloe brachyelytri strain E4804 beta-tubulin (tubB) gene, complete cds</Hit_def>
   <Hit_accession>KF042060</Hit_accession>
@@ -1378,8 +1520,8 @@
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>2980.45</Hsp_bit-score>
-      <Hsp_score>3304</Hsp_score>
+      <Hsp_bit-score>2981.35</Hsp_bit-score>
+      <Hsp_score>3305</Hsp_score>
       <Hsp_evalue>0</Hsp_evalue>
       <Hsp_query-from>236</Hsp_query-from>
       <Hsp_query-to>2022</Hsp_query-to>
@@ -1397,39 +1539,11 @@
     </Hsp>
   </Hit_hsps>
 </Hit>
-<Hit>
-  <Hit_num>50</Hit_num>
-  <Hit_id>gi|511634166|gb|KF042049.1|</Hit_id>
-  <Hit_def>Neotyphodium aotearoae strain e899 beta-tubulin (tubB) gene, complete cds</Hit_def>
-  <Hit_accession>KF042049</Hit_accession>
-  <Hit_len>1782</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>2975.04</Hsp_bit-score>
-      <Hsp_score>3298</Hsp_score>
-      <Hsp_evalue>0</Hsp_evalue>
-      <Hsp_query-from>236</Hsp_query-from>
-      <Hsp_query-to>2022</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>1782</Hsp_hit-to>
-      <Hsp_query-frame>1</Hsp_query-frame>
-      <Hsp_hit-frame>1</Hsp_hit-frame>
-      <Hsp_identity>1734</Hsp_identity>
-      <Hsp_positive>1734</Hsp_positive>
-      <Hsp_gaps>5</Hsp_gaps>
-      <Hsp_align-len>1787</Hsp_align-len>
-      <Hsp_qseq>ATGCGTGAGATTGTGAGTTCAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCCGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGGCCACGACGTGCACGCCCAACGGACAAGTCGTGATGAGAGGCGGACCGAGACAACATTGATGAATGCGGTATTCGAAAACCGTAGCTGACCTTTTTTCTTTGCCTCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATCCGCCGACCTCGAACGACAGGCACAAATAACATGAAAAACTCACATTGATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGCAAGTCTTCATAATCTACAAAAGTCTCCATTGAGCTACATACTGCCCTGGAGATGGGGCGGGAGAAGATGGAAAGGAAAAGTGTTATCATGCTAATCTATGTGACAGGCTTCTGGCAACAAGTACGTTCCTCGCGCTGTTCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCCGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGCGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGATGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCTCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCTACTTTTTCCGTCGTTCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACTCTCTCTGTCCATCAGCTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCCAACCCCTCGTACGGCGATTTGAACTACCTGGTCTCCGCTGTCATGTCTGGCGTCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGCAAGTTGGCCGTCAACATGGTTCCTTTCCCCCGTCTGCACTTCTTCATGGTCGGCTTCGCCCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTCAGCGTCCCTGAGCTTACCCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCTGCCATTTTGTGAGTGAAATTGACAACCTCAACTTGAGAAGTCGTGTCGCAGTAACTGACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTCGTCGAGTGGATCCCCAACAACATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTCAAGCGGGTTGGCGAGCAGTTCACAGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAGTATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAA</Hsp_qseq>
-      <Hsp_hseq>ATGCGTGAGATTGTAAGTTTAACCTCTCTGTTTGTCTTGGGGACCCCCTCCTCGACGCGTTCCGGTGTTGAGCCCCTGATTTCGTACCCCGCCGAGCCCGACCACGACGTGCACGCCCAACGGACA-GTCGTGATGAGAGGCGGACCGAGACAAAATGAATGAATGCGGTATTCGAGAACTGTAGCTGACCTTTTTTCTTTCCCTCTAGGTTCATCTTCAAACCGGTCAGTGCGTAAGTGACAAATCCGCCGACCTCGAACGACAGACACAAATAACATGAAAAACTCACATTTATTTGGGCAGGGTAACCAAATTGGTGCTGCTTTCTGGCAGACCATCTCTGGCGAGCACGGCCTCGACAGCAATGGTGTGTACAATGGTACCTCCGAGCTCCAGCTCGAGCGTATGAGTGTCTACTTCAACGAGGTAAGTCTTCATAATCTA---AAGTCTCCATTGAGCTACATACCGCCCTGGAGATGAGACGGAAAGAGAAGGAAAGAAAAAGTGCCATCATGCTAATCTATGTGACAGGCTTCTGGCAACAAGTATGTTCCTCGCGCTGTCCTCGTCGATCTCGAGCCTGGTACCATGGATGCAGTCCGTGCTGGTCCCTTCGGTCAGCTTTTCCGTCCTGACAACTTCGTCTTCGGTCAGTCTGGTGCTGGCAACAACTGGGCCAAGGGTCACTACACTGAGGGTGCTGAGCTGGTTGACCAGGTCCTCGATGTTGTGCGTCGCGAGGCCGAAGGCTGTGACTGCCTCCAGGGTTTCCAGATCACCCACTCGCTTGGTGGTGGTACCGGTGCCGGTATGGGTACATTGTTGATCTCCAAGATCCGTGAGGAGTTCCCCGACCGGATGATGGCTACTTTCTCCGTCGTTCCCTCTCCCAAGGTCTCTGACACCGTTGTCGAGCCCTACAACGCCACCCTCTCCGTCCACCAACTTGTCGAGAACTCGGACGAAACGTTCTGTATCGATAATGAGGCCTTGTACGATATCTGCATGCGTACTCTTAAGCTGTCTAACCCCTCGTACGGTGATTTGAACTACCTGGTCTCCGCTGTCATGTCTGGCATCACCACCTGCCTGCGTTTCCCTGGTCAGCTGAACTCTGACCTGCGTAAGCTGGCCGTCAACATGGTTCCTTTCCCCCGTCTGCACTTCTTCATGGTCGGCTTCGCTCCCCTGACCAGCCGTGGCGCCCACTCTTTCCGCGCTGTCAGCGTCCCTGAGCTTACCCAGCAAATGTTCGACCCCAAGAACATGATGGCTGCTTCTGATTTCAGAAATGGTCGCTACCTGACCTGCTCTGCCATTTTGTGAGTGAAATTGACAATCCTAACTTGAG-AGTCGTGTCGCAGTAACTAACTGGGAACAAACAGCCGTGGCAAGGTCGCTATGAAGGAGGTCGAGGACCAGATGCGTAACGTGCAGAACAAGAACTCTTCCTACTTTGTCGAGTGGATCCCCAACAATATCCAGACTGCTCTCTGCGCCATCCCTCCCCGTGGCCTCAAGATGTCTTCTACCTTTATCGGTAACTCCACCTCCATCCAGGAGCTCTTTAAGCGGGTTGGCGAGCAGTTCACGGCCATGTTCCGTCGCAAGGCTTTCTTGCATTGGTACACTGGCGAGGGTATGGACGAGATGGAGTTCACTGAGGCTGAGTCTAACATGAACGATCTTGTTTCCGAATACCAGCAGTACCAGGATGCTGGTATTGATGAGGAAGAAGAGGAATATGAGGAGGAGGCACCTGTTGACGAGCCTCTGGAGTAA</Hsp_hseq>
-      <Hsp_midline>|||||||||||||| |||| ||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||| ||||||||||||||||||||||||||| ||  ||||||||||||||||| ||| |||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||   |||||||||||||||||||||| |||||||||||| | ||| |  ||| |||||| |||||||  ||||||||||||||||||||||||||||||||||||||| |||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||| |||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||| ||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  |||||||| |||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
 </Iteration_hits>
   <Iteration_stat>
     <Statistics>
-      <Statistics_db-num>45120998</Statistics_db-num>
-      <Statistics_db-len>2051093685</Statistics_db-len>
+      <Statistics_db-num>56840973</Statistics_db-num>
+      <Statistics_db-len>256848598563</Statistics_db-len>
       <Statistics_hsp-len>0</Statistics_hsp-len>
       <Statistics_eff-space>0</Statistics_eff-space>
       <Statistics_kappa>0.41</Statistics_kappa>
@@ -1440,4 +1554,3 @@
 </Iteration>
 </BlastOutput_iterations>
 </BlastOutput>
-

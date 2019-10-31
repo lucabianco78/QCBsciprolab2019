@@ -18,6 +18,7 @@
     Practical 9 <practical9.ipynb>
     Practical 10 <practical10.ipynb>
     Practical 11 <practical11.ipynb>
+    Midterm simulation <midterm1_sim.ipynb>
 
 
 |space|
